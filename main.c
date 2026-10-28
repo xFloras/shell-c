@@ -86,12 +86,10 @@ int search_path(char *fname, char* full_path) {
 
 
 
-// TODO: refactor the code make the tokenizer.c and run external program with passed arguments
 
 int main(int argc, char *argv[]) {
 
   while (1) {
-      // Flush after every printf
       setbuf(stdout, NULL);
 
       printf("$ ");
